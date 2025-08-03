@@ -9,7 +9,7 @@ Set up a basic remote Linux server and configure it to allow SSH.
 - Furthermore, connected using the 'ssh -i .ssh/<key_name> user_name@remote_server_public_ip' command.
 - And I give different names and passphrases to ensure both keys are working or not.
 - I tried to connect with both keys. It's connected successfully.
-- To connect to the remote server using a simple command like ssh <alias>, I created a file called config on the Linux server.
+- To connect to the remote server using a simple command like 'ssh \<alias\>', I created a file called config on the Linux server.
 - After, added a block for the remote server using the following format.
 ```bash
 Host <alias>
